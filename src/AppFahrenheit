@@ -1,0 +1,22 @@
+    
+import React from 'react';
+import './App.css';
+
+class Celsius extends React.Component {
+	constructor(props){
+		super(props);
+	 }
+	render(){
+	return (
+       		 <div className="Celsius">
+			<p>Celcius
+				<input type="text"></input>
+
+			</p>
+       		 </div>
+			      
+	);
+	}
+}
+export default Celsius;
+    
